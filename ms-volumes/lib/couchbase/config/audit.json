@@ -1,0 +1,13 @@
+{
+  "descriptors_path": "/opt/couchbase/etc/security",
+  "version": 2,
+  "uuid": "38875673",
+  "event_states": {},
+  "filtering_enabled": true,
+  "disabled_userids": [],
+  "auditd_enabled": false,
+  "log_path": "/opt/couchbase/var/lib/couchbase/logs",
+  "rotate_interval": 86400,
+  "rotate_size": 20971520,
+  "sync": []
+}

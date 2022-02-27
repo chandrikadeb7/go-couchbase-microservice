@@ -1,0 +1,20 @@
+services:
+  billing-cycle-ms-app:
+    build:
+      dockerfile: Dockerfile
+      context: .
+      target: build-env
+    volumes:
+    - .:/opt/app/
+    environment:
+      - PORT=${PORT}
+      - COUCHBASE_USERNAME=${COUCHBASE_USERNAME}
+      - COUCHBASE_PASSWORD=${COUCHBASE_PASSWORD}
+    ports:
+      - "9000:${PORT}"
+
+
+networks:
+  default:
+    external: true
+    name: couchbase-db-billing-cycle_default

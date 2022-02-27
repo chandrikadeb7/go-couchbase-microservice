@@ -1,0 +1,39 @@
+2022-01-13T14:24:41.657288+00:00 INFO ---------- Opening logfile: /opt/couchbase/var/lib/couchbase/logs/memcached.log.000005.txt
+2022-01-13T14:24:41.659906+00:00 INFO Couchbase version 6.6.0-7909 starting.
+2022-01-13T14:24:41.659995+00:00 INFO Breakpad enabled. Minidumps will be written to '/opt/couchbase/var/lib/couchbase/crash'
+2022-01-13T14:24:41.660475+00:00 INFO Using SLA configuration: {"COMPACT_DB":{"slow":"1800 s"},"DELETE_BUCKET":{"slow":"10 s"},"SEQNO_PERSISTENCE":{"slow":"30 s"},"comment":"Current MCBP SLA configuration","default":{"slow":"500 ms"},"version":1}
+2022-01-13T14:24:41.660509+00:00 INFO Enable standard input listener
+2022-01-13T14:24:41.660575+00:00 INFO NUMA: NOT setting memory allocation policy to 'interleave' - request failed: Operation not permitted
+2022-01-13T14:24:41.661688+00:00 INFO Loading RBAC configuration from [/opt/couchbase/var/lib/couchbase/config/memcached.rbac]
+2022-01-13T14:24:41.664354+00:00 INFO Loading error maps from [/opt/couchbase/etc/couchbase/kv/error_maps]
+2022-01-13T14:24:41.664977+00:00 INFO Starting external authentication manager
+2022-01-13T14:24:41.674810+00:00 INFO Audit descriptor 20492 changed from: disabled to: enabled
+2022-01-13T14:24:41.674861+00:00 INFO Audit descriptor 20487 changed from: disabled to: enabled
+2022-01-13T14:24:41.674864+00:00 INFO Audit descriptor 20486 changed from: disabled to: enabled
+2022-01-13T14:24:41.674865+00:00 INFO Audit descriptor 20484 changed from: disabled to: enabled
+2022-01-13T14:24:41.674865+00:00 INFO Audit descriptor 20483 changed from: disabled to: enabled
+2022-01-13T14:24:41.674866+00:00 INFO Audit descriptor 20482 changed from: disabled to: enabled
+2022-01-13T14:24:41.674866+00:00 INFO Audit descriptor 20481 changed from: disabled to: enabled
+2022-01-13T14:24:41.674867+00:00 INFO Audit descriptor 20480 changed from: disabled to: enabled
+2022-01-13T14:24:41.674874+00:00 INFO Changing logging level to 0
+2022-01-13T14:24:41.678854+00:00 INFO Create bucket "<internal>" by using "nobucket.so"
+2022-01-13T14:24:41.682234+00:00 INFO Enable port(s)
+2022-01-13T14:24:41.682454+00:00 INFO 9 Listen on IPv4: 0.0.0.0:11210
+2022-01-13T14:24:41.682533+00:00 INFO 10 Listen on IPv6: [::]:11210
+2022-01-13T14:24:41.682773+00:00 INFO 11 Listen on IPv4: 0.0.0.0:11209
+2022-01-13T14:24:41.682894+00:00 INFO 12 Listen on IPv6: [::]:11209
+2022-01-13T14:24:41.687369+00:00 INFO Initialization complete. Accepting clients.
+2022-01-13T14:24:41.872531+00:00 INFO 57: Client 127.0.0.1:43529 authenticated as <ud>@ns_server</ud>
+2022-01-13T14:24:41.872879+00:00 INFO 57: HELO [regular] [ 127.0.0.1:43529 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:24:41.873087+00:00 INFO 57: Loading RBAC configuration from [/opt/couchbase/var/lib/couchbase/config/memcached.rbac] [ 127.0.0.1:43529 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:24:41.876068+00:00 INFO 57: RBAC configuration updated [ 127.0.0.1:43529 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:24:42.047731+00:00 INFO 57: Client 127.0.0.1:56101 authenticated as <ud>@ns_server</ud>
+2022-01-13T14:24:42.048054+00:00 INFO 57: HELO [regular] [ 127.0.0.1:56101 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:24:42.124915+00:00 INFO 58: Client 127.0.0.1:46533 authenticated as <ud>@ns_server</ud>
+2022-01-13T14:24:42.125648+00:00 INFO 58: HELO [regular] [ 127.0.0.1:46533 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:24:42.126511+00:00 INFO 58: [ 127.0.0.1:46533 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ] Updated global cluster configuration. New revision: 36
+2022-01-13T14:24:42.126590+00:00 INFO Pushing new cluster config for bucket:[] revision:[36]
+2022-01-13T14:24:44.973518+00:00 INFO 59: [ 172.22.0.3:45268 - 172.22.0.2:11210 (not authenticated) ] Request for [disabled] Tracing feature
+2022-01-13T14:24:44.973560+00:00 INFO 59: HELO [{"a":"gocbcore/v10.0.6 gocb/v2.3.5","i":"23845f6b28b67d1f/143ca0f5bdbc2227"}] Mutation seqno, XATTR, XERROR, Select bucket, JSON, Unordered execution, AltRequestSupport, SyncReplication, SubdocCreateAsDeleted [ 172.22.0.3:45268 - 172.22.0.2:11210 (not authenticated) ]
+2022-01-13T14:24:44.979446+00:00 INFO 59: Client 172.22.0.3:45268 authenticated as <ud>Administrator</ud>
+2022-01-13T14:24:44.979650+00:00 INFO 59: select_bucket failed - No access. {"cid":"23845f6b28b67d1f/143ca0f5bdbc2227/6","connection":"[ 172.22.0.3:45268 - 172.22.0.2:11210 (<ud>Administrator</ud>) ]","bucket":"new-bucket"}

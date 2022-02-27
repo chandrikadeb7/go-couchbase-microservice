@@ -1,0 +1,14 @@
+services:
+  couchbase-db-srv:
+    image: couchbase:community-6.6.0
+    container_name: couchbase-db-billing-cycle
+    volumes:
+      - "C:/Users/animessa/Desktop/billing-cycle-ms-app/ms-volumes:/opt/couchbase/var"
+    ports:
+      - "11210:11210"
+      - "8091-8094:8091-8094"
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 70000
+        hard: 80000

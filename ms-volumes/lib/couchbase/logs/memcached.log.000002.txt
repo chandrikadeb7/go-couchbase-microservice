@@ -1,0 +1,35 @@
+2022-01-13T14:05:54.320682+00:00 INFO ---------- Opening logfile: /opt/couchbase/var/lib/couchbase/logs/memcached.log.000002.txt
+2022-01-13T14:05:54.321999+00:00 INFO Couchbase version 6.6.0-7909 starting.
+2022-01-13T14:05:54.322108+00:00 INFO Breakpad enabled. Minidumps will be written to '/opt/couchbase/var/lib/couchbase/crash'
+2022-01-13T14:05:54.322757+00:00 INFO Using SLA configuration: {"COMPACT_DB":{"slow":"1800 s"},"DELETE_BUCKET":{"slow":"10 s"},"SEQNO_PERSISTENCE":{"slow":"30 s"},"comment":"Current MCBP SLA configuration","default":{"slow":"500 ms"},"version":1}
+2022-01-13T14:05:54.322792+00:00 INFO Enable standard input listener
+2022-01-13T14:05:54.322875+00:00 INFO NUMA: NOT setting memory allocation policy to 'interleave' - request failed: Operation not permitted
+2022-01-13T14:05:54.323776+00:00 INFO Loading RBAC configuration from [/opt/couchbase/var/lib/couchbase/config/memcached.rbac]
+2022-01-13T14:05:54.326391+00:00 INFO Loading error maps from [/opt/couchbase/etc/couchbase/kv/error_maps]
+2022-01-13T14:05:54.327074+00:00 INFO Starting external authentication manager
+2022-01-13T14:05:54.335945+00:00 INFO Audit descriptor 20492 changed from: disabled to: enabled
+2022-01-13T14:05:54.336021+00:00 INFO Audit descriptor 20487 changed from: disabled to: enabled
+2022-01-13T14:05:54.336023+00:00 INFO Audit descriptor 20486 changed from: disabled to: enabled
+2022-01-13T14:05:54.336024+00:00 INFO Audit descriptor 20484 changed from: disabled to: enabled
+2022-01-13T14:05:54.336025+00:00 INFO Audit descriptor 20483 changed from: disabled to: enabled
+2022-01-13T14:05:54.336025+00:00 INFO Audit descriptor 20482 changed from: disabled to: enabled
+2022-01-13T14:05:54.336026+00:00 INFO Audit descriptor 20481 changed from: disabled to: enabled
+2022-01-13T14:05:54.336027+00:00 INFO Audit descriptor 20480 changed from: disabled to: enabled
+2022-01-13T14:05:54.336034+00:00 INFO Changing logging level to 0
+2022-01-13T14:05:54.339020+00:00 INFO Create bucket "<internal>" by using "nobucket.so"
+2022-01-13T14:05:54.342478+00:00 INFO Enable port(s)
+2022-01-13T14:05:54.342770+00:00 INFO 9 Listen on IPv4: 0.0.0.0:11210
+2022-01-13T14:05:54.342861+00:00 INFO 10 Listen on IPv6: [::]:11210
+2022-01-13T14:05:54.342977+00:00 INFO 11 Listen on IPv4: 0.0.0.0:11209
+2022-01-13T14:05:54.343035+00:00 INFO 12 Listen on IPv6: [::]:11209
+2022-01-13T14:05:54.349356+00:00 INFO Initialization complete. Accepting clients.
+2022-01-13T14:05:54.613983+00:00 INFO 57: Client 127.0.0.1:38897 authenticated as <ud>@ns_server</ud>
+2022-01-13T14:05:54.614359+00:00 INFO 57: HELO [regular] [ 127.0.0.1:38897 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:05:54.614675+00:00 INFO 57: Loading RBAC configuration from [/opt/couchbase/var/lib/couchbase/config/memcached.rbac] [ 127.0.0.1:38897 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:05:54.618012+00:00 INFO 57: RBAC configuration updated [ 127.0.0.1:38897 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:05:54.785684+00:00 INFO 57: Client 127.0.0.1:51043 authenticated as <ud>@ns_server</ud>
+2022-01-13T14:05:54.785903+00:00 INFO 57: HELO [regular] [ 127.0.0.1:51043 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:05:54.844525+00:00 INFO 58: Client 127.0.0.1:33599 authenticated as <ud>@ns_server</ud>
+2022-01-13T14:05:54.844820+00:00 INFO 58: HELO [regular] [ 127.0.0.1:33599 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:05:54.844962+00:00 INFO 58: [ 127.0.0.1:33599 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ] Updated global cluster configuration. New revision: 30
+2022-01-13T14:05:54.845033+00:00 INFO Pushing new cluster config for bucket:[] revision:[30]

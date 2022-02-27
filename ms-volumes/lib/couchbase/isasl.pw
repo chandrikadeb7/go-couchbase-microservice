@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "n": "Administrator",
+      "plain": "QCoz4xL0JdCa9tu/OGorEbNGR6dR1ceF1MgFmHb9ofR+EF8f",
+      "sha512": {
+        "h": "xBD3/Z1U8mDaCtRIvlpyFkvh7Aqj7TU/P0LaUIBBZrqhVUIqPKPFya1JYsYcgjoNj51+t/qg7goas1zMDv64uA==",
+        "s": "x0ZgUelnjLsw2JI8p4vu8tf8gpMyozBOCf+Jil9gbgmL/Pz0HHKld2AcRjxRG+eimpYeZSLRuM3DLjycZF+ohQ==",
+        "i": 4000
+      },
+      "sha256": {
+        "h": "R48tLjodepcbt7b3FVmS97qKrgOzAg0xNhzgK/MN4e8=",
+        "s": "n3KxyGL15qJUxqsNTkVPyJjBezmcpMAHgFFns8kpnVU=",
+        "i": 4000
+      },
+      "sha1": {
+        "h": "iF0Yfw+8Hcs0kmzXy1b+jgaIq5Y=",
+        "s": "ADRRQsDLtREbtUea2UIdt6zTXAs=",
+        "i": 4000
+      }
+    },
+    {
+      "n": "@ns_server",
+      "plain": "tURVAVZ9IxvYHtJxA6X1R0rQN3EKAKbYANMOH/+fYYLZS461",
+      "sha512": {
+        "h": "TlDbGXj3NIMyB6bxpDm0P30ODUH/HB/VPTCrLEaqppZvgy9b7+kgE+Dnl18GpAvffk8rqfQMpRjhrTbo//laZA==",
+        "s": "4geuXoYpLeOUNkqbCugM5oLIueKvh+CuA1WQArQ7ojwnn900akwblidbItM03CqTwEOjzN1BAHvQjb34pIt2Mw==",
+        "i": 4000
+      },
+      "sha256": {
+        "h": "nPsWDgMxauU0DASWgz1qoq+Jo3omqO2l2vQs+5MkBE0=",
+        "s": "FpwQCJF6h+B/+14nXxbCpdFPlXNoRtapM1YArZFmXWQ=",
+        "i": 4000
+      },
+      "sha1": {
+        "h": "J18yYKOLOZ7KA9g/NVe6vPpDc3Y=",
+        "s": "yvD/iGjYUTAUWwJrjsfESKnH6Kc=",
+        "i": 4000
+      }
+    },
+    {
+      "n": "@cbq-engine",
+      "plain": "tURVAVZ9IxvYHtJxA6X1R0rQN3EKAKbYANMOH/+fYYLZS461",
+      "sha512": {
+        "h": "TlDbGXj3NIMyB6bxpDm0P30ODUH/HB/VPTCrLEaqppZvgy9b7+kgE+Dnl18GpAvffk8rqfQMpRjhrTbo//laZA==",
+        "s": "4geuXoYpLeOUNkqbCugM5oLIueKvh+CuA1WQArQ7ojwnn900akwblidbItM03CqTwEOjzN1BAHvQjb34pIt2Mw==",
+        "i": 4000
+      },
+      "sha256": {
+        "h": "nPsWDgMxauU0DASWgz1qoq+Jo3omqO2l2vQs+5MkBE0=",
+        "s": "FpwQCJF6h+B/+14nXxbCpdFPlXNoRtapM1YArZFmXWQ=",
+        "i": 4000
+      },
+      "sha1": {
+        "h": "J18yYKOLOZ7KA9g/NVe6vPpDc3Y=",
+        "s": "yvD/iGjYUTAUWwJrjsfESKnH6Kc=",
+        "i": 4000
+      }
+    },
+    {
+      "n": "@projector",
+      "plain": "tURVAVZ9IxvYHtJxA6X1R0rQN3EKAKbYANMOH/+fYYLZS461",
+      "sha512": {
+        "h": "TlDbGXj3NIMyB6bxpDm0P30ODUH/HB/VPTCrLEaqppZvgy9b7+kgE+Dnl18GpAvffk8rqfQMpRjhrTbo//laZA==",
+        "s": "4geuXoYpLeOUNkqbCugM5oLIueKvh+CuA1WQArQ7ojwnn900akwblidbItM03CqTwEOjzN1BAHvQjb34pIt2Mw==",
+        "i": 4000
+      },
+      "sha256": {
+        "h": "nPsWDgMxauU0DASWgz1qoq+Jo3omqO2l2vQs+5MkBE0=",
+        "s": "FpwQCJF6h+B/+14nXxbCpdFPlXNoRtapM1YArZFmXWQ=",
+        "i": 4000
+      },
+      "sha1": {
+        "h": "J18yYKOLOZ7KA9g/NVe6vPpDc3Y=",
+        "s": "yvD/iGjYUTAUWwJrjsfESKnH6Kc=",
+        "i": 4000
+      }
+    },
+    {
+      "n": "@goxdcr",
+      "plain": "tURVAVZ9IxvYHtJxA6X1R0rQN3EKAKbYANMOH/+fYYLZS461",
+      "sha512": {
+        "h": "TlDbGXj3NIMyB6bxpDm0P30ODUH/HB/VPTCrLEaqppZvgy9b7+kgE+Dnl18GpAvffk8rqfQMpRjhrTbo//laZA==",
+        "s": "4geuXoYpLeOUNkqbCugM5oLIueKvh+CuA1WQArQ7ojwnn900akwblidbItM03CqTwEOjzN1BAHvQjb34pIt2Mw==",
+        "i": 4000
+      },
+      "sha256": {
+        "h": "nPsWDgMxauU0DASWgz1qoq+Jo3omqO2l2vQs+5MkBE0=",
+        "s": "FpwQCJF6h+B/+14nXxbCpdFPlXNoRtapM1YArZFmXWQ=",
+        "i": 4000
+      },
+      "sha1": {
+        "h": "J18yYKOLOZ7KA9g/NVe6vPpDc3Y=",
+        "s": "yvD/iGjYUTAUWwJrjsfESKnH6Kc=",
+        "i": 4000
+      }
+    },
+    {
+      "n": "@index",
+      "plain": "tURVAVZ9IxvYHtJxA6X1R0rQN3EKAKbYANMOH/+fYYLZS461",
+      "sha512": {
+        "h": "TlDbGXj3NIMyB6bxpDm0P30ODUH/HB/VPTCrLEaqppZvgy9b7+kgE+Dnl18GpAvffk8rqfQMpRjhrTbo//laZA==",
+        "s": "4geuXoYpLeOUNkqbCugM5oLIueKvh+CuA1WQArQ7ojwnn900akwblidbItM03CqTwEOjzN1BAHvQjb34pIt2Mw==",
+        "i": 4000
+      },
+      "sha256": {
+        "h": "nPsWDgMxauU0DASWgz1qoq+Jo3omqO2l2vQs+5MkBE0=",
+        "s": "FpwQCJF6h+B/+14nXxbCpdFPlXNoRtapM1YArZFmXWQ=",
+        "i": 4000
+      },
+      "sha1": {
+        "h": "J18yYKOLOZ7KA9g/NVe6vPpDc3Y=",
+        "s": "yvD/iGjYUTAUWwJrjsfESKnH6Kc=",
+        "i": 4000
+      }
+    },
+    {
+      "n": "@fts",
+      "plain": "tURVAVZ9IxvYHtJxA6X1R0rQN3EKAKbYANMOH/+fYYLZS461",
+      "sha512": {
+        "h": "TlDbGXj3NIMyB6bxpDm0P30ODUH/HB/VPTCrLEaqppZvgy9b7+kgE+Dnl18GpAvffk8rqfQMpRjhrTbo//laZA==",
+        "s": "4geuXoYpLeOUNkqbCugM5oLIueKvh+CuA1WQArQ7ojwnn900akwblidbItM03CqTwEOjzN1BAHvQjb34pIt2Mw==",
+        "i": 4000
+      },
+      "sha256": {
+        "h": "nPsWDgMxauU0DASWgz1qoq+Jo3omqO2l2vQs+5MkBE0=",
+        "s": "FpwQCJF6h+B/+14nXxbCpdFPlXNoRtapM1YArZFmXWQ=",
+        "i": 4000
+      },
+      "sha1": {
+        "h": "J18yYKOLOZ7KA9g/NVe6vPpDc3Y=",
+        "s": "yvD/iGjYUTAUWwJrjsfESKnH6Kc=",
+        "i": 4000
+      }
+    },
+    {
+      "n": "@eventing",
+      "plain": "tURVAVZ9IxvYHtJxA6X1R0rQN3EKAKbYANMOH/+fYYLZS461",
+      "sha512": {
+        "h": "TlDbGXj3NIMyB6bxpDm0P30ODUH/HB/VPTCrLEaqppZvgy9b7+kgE+Dnl18GpAvffk8rqfQMpRjhrTbo//laZA==",
+        "s": "4geuXoYpLeOUNkqbCugM5oLIueKvh+CuA1WQArQ7ojwnn900akwblidbItM03CqTwEOjzN1BAHvQjb34pIt2Mw==",
+        "i": 4000
+      },
+      "sha256": {
+        "h": "nPsWDgMxauU0DASWgz1qoq+Jo3omqO2l2vQs+5MkBE0=",
+        "s": "FpwQCJF6h+B/+14nXxbCpdFPlXNoRtapM1YArZFmXWQ=",
+        "i": 4000
+      },
+      "sha1": {
+        "h": "J18yYKOLOZ7KA9g/NVe6vPpDc3Y=",
+        "s": "yvD/iGjYUTAUWwJrjsfESKnH6Kc=",
+        "i": 4000
+      }
+    },
+    {
+      "n": "@cbas",
+      "plain": "tURVAVZ9IxvYHtJxA6X1R0rQN3EKAKbYANMOH/+fYYLZS461",
+      "sha512": {
+        "h": "TlDbGXj3NIMyB6bxpDm0P30ODUH/HB/VPTCrLEaqppZvgy9b7+kgE+Dnl18GpAvffk8rqfQMpRjhrTbo//laZA==",
+        "s": "4geuXoYpLeOUNkqbCugM5oLIueKvh+CuA1WQArQ7ojwnn900akwblidbItM03CqTwEOjzN1BAHvQjb34pIt2Mw==",
+        "i": 4000
+      },
+      "sha256": {
+        "h": "nPsWDgMxauU0DASWgz1qoq+Jo3omqO2l2vQs+5MkBE0=",
+        "s": "FpwQCJF6h+B/+14nXxbCpdFPlXNoRtapM1YArZFmXWQ=",
+        "i": 4000
+      },
+      "sha1": {
+        "h": "J18yYKOLOZ7KA9g/NVe6vPpDc3Y=",
+        "s": "yvD/iGjYUTAUWwJrjsfESKnH6Kc=",
+        "i": 4000
+      }
+    },
+    {
+      "n": "test-bucket;legacy",
+      "plain": "GIxW/vy8Z+PI2f+gPB/aOLhLUMGJt8hGrE6g4JCfjkzsj+2I"
+    },
+    {
+      "n": "travel-sample;legacy",
+      "plain": "FF2+JMy1gwQgcciKY7EZfCwEfsgRBwm4ZWRFZH3r9Pn3HmKL"
+    }
+  ]
+}

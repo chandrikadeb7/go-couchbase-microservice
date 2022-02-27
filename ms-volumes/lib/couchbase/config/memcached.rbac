@@ -1,0 +1,182 @@
+{
+  "@ns_server": {
+    "buckets": {
+      "*": [
+        "all"
+      ]
+    },
+    "privileges": [
+      "all"
+    ],
+    "domain": "local"
+  },
+  "@cbq-engine": {
+    "buckets": {
+      "*": [
+        "all"
+      ]
+    },
+    "privileges": [
+      "all"
+    ],
+    "domain": "local"
+  },
+  "@projector": {
+    "buckets": {
+      "*": [
+        "all"
+      ]
+    },
+    "privileges": [
+      "all"
+    ],
+    "domain": "local"
+  },
+  "@goxdcr": {
+    "buckets": {
+      "*": [
+        "all"
+      ]
+    },
+    "privileges": [
+      "all"
+    ],
+    "domain": "local"
+  },
+  "@index": {
+    "buckets": {
+      "*": [
+        "all"
+      ]
+    },
+    "privileges": [
+      "all"
+    ],
+    "domain": "local"
+  },
+  "@fts": {
+    "buckets": {
+      "*": [
+        "all"
+      ]
+    },
+    "privileges": [
+      "all"
+    ],
+    "domain": "local"
+  },
+  "@eventing": {
+    "buckets": {
+      "*": [
+        "all"
+      ]
+    },
+    "privileges": [
+      "all"
+    ],
+    "domain": "local"
+  },
+  "@cbas": {
+    "buckets": {
+      "*": [
+        "all"
+      ]
+    },
+    "privileges": [
+      "all"
+    ],
+    "domain": "local"
+  },
+  "Administrator": {
+    "buckets": {
+      "test-bucket": [
+        "DcpConsumer",
+        "DcpProducer",
+        "Delete",
+        "Insert",
+        "MetaRead",
+        "MetaWrite",
+        "Read",
+        "SimpleStats",
+        "SystemXattrRead",
+        "SystemXattrWrite",
+        "Upsert",
+        "XattrRead",
+        "XattrWrite"
+      ],
+      "travel-sample": [
+        "DcpConsumer",
+        "DcpProducer",
+        "Delete",
+        "Insert",
+        "MetaRead",
+        "MetaWrite",
+        "Read",
+        "SimpleStats",
+        "SystemXattrRead",
+        "SystemXattrWrite",
+        "Upsert",
+        "XattrRead",
+        "XattrWrite"
+      ]
+    },
+    "privileges": [
+      "AuditManagement",
+      "BucketManagement",
+      "IdleConnection",
+      "NodeManagement",
+      "SessionManagement",
+      "Stats",
+      "SystemSettings"
+    ],
+    "domain": "local"
+  },
+  "test-bucket;legacy": {
+    "buckets": {
+      "test-bucket": [
+        "DcpConsumer",
+        "DcpProducer",
+        "Delete",
+        "Insert",
+        "MetaRead",
+        "MetaWrite",
+        "Read",
+        "SimpleStats",
+        "SystemXattrRead",
+        "SystemXattrWrite",
+        "Upsert",
+        "XattrRead",
+        "XattrWrite"
+      ],
+      "travel-sample": []
+    },
+    "privileges": [
+      "SystemSettings"
+    ],
+    "domain": "local"
+  },
+  "travel-sample;legacy": {
+    "buckets": {
+      "test-bucket": [],
+      "travel-sample": [
+        "DcpConsumer",
+        "DcpProducer",
+        "Delete",
+        "Insert",
+        "MetaRead",
+        "MetaWrite",
+        "Read",
+        "SimpleStats",
+        "SystemXattrRead",
+        "SystemXattrWrite",
+        "Upsert",
+        "XattrRead",
+        "XattrWrite"
+      ]
+    },
+    "privileges": [
+      "SystemSettings"
+    ],
+    "domain": "local"
+  }
+}

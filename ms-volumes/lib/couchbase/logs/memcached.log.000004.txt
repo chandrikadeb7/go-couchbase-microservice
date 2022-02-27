@@ -1,0 +1,51 @@
+2022-01-13T14:20:32.237111+00:00 INFO ---------- Opening logfile: /opt/couchbase/var/lib/couchbase/logs/memcached.log.000004.txt
+2022-01-13T14:20:32.241694+00:00 INFO Couchbase version 6.6.0-7909 starting.
+2022-01-13T14:20:32.242130+00:00 INFO Breakpad enabled. Minidumps will be written to '/opt/couchbase/var/lib/couchbase/crash'
+2022-01-13T14:20:32.243223+00:00 INFO Using SLA configuration: {"COMPACT_DB":{"slow":"1800 s"},"DELETE_BUCKET":{"slow":"10 s"},"SEQNO_PERSISTENCE":{"slow":"30 s"},"comment":"Current MCBP SLA configuration","default":{"slow":"500 ms"},"version":1}
+2022-01-13T14:20:32.243366+00:00 INFO Enable standard input listener
+2022-01-13T14:20:32.243671+00:00 INFO NUMA: NOT setting memory allocation policy to 'interleave' - request failed: Operation not permitted
+2022-01-13T14:20:32.244745+00:00 INFO Loading RBAC configuration from [/opt/couchbase/var/lib/couchbase/config/memcached.rbac]
+2022-01-13T14:20:32.247097+00:00 INFO Loading error maps from [/opt/couchbase/etc/couchbase/kv/error_maps]
+2022-01-13T14:20:32.248458+00:00 INFO Starting external authentication manager
+2022-01-13T14:20:32.261773+00:00 INFO Audit descriptor 20492 changed from: disabled to: enabled
+2022-01-13T14:20:32.261805+00:00 INFO Audit descriptor 20487 changed from: disabled to: enabled
+2022-01-13T14:20:32.261807+00:00 INFO Audit descriptor 20486 changed from: disabled to: enabled
+2022-01-13T14:20:32.261807+00:00 INFO Audit descriptor 20484 changed from: disabled to: enabled
+2022-01-13T14:20:32.261808+00:00 INFO Audit descriptor 20483 changed from: disabled to: enabled
+2022-01-13T14:20:32.261808+00:00 INFO Audit descriptor 20482 changed from: disabled to: enabled
+2022-01-13T14:20:32.261809+00:00 INFO Audit descriptor 20481 changed from: disabled to: enabled
+2022-01-13T14:20:32.261810+00:00 INFO Audit descriptor 20480 changed from: disabled to: enabled
+2022-01-13T14:20:32.261817+00:00 INFO Changing logging level to 0
+2022-01-13T14:20:32.265107+00:00 INFO Create bucket "<internal>" by using "nobucket.so"
+2022-01-13T14:20:32.269222+00:00 INFO Enable port(s)
+2022-01-13T14:20:32.269481+00:00 INFO 9 Listen on IPv4: 0.0.0.0:11210
+2022-01-13T14:20:32.269584+00:00 INFO 10 Listen on IPv6: [::]:11210
+2022-01-13T14:20:32.269706+00:00 INFO 11 Listen on IPv4: 0.0.0.0:11209
+2022-01-13T14:20:32.269761+00:00 INFO 12 Listen on IPv6: [::]:11209
+2022-01-13T14:20:32.277216+00:00 INFO Initialization complete. Accepting clients.
+2022-01-13T14:20:32.360595+00:00 INFO 57: Client 127.0.0.1:49939 authenticated as <ud>@ns_server</ud>
+2022-01-13T14:20:32.361384+00:00 INFO 57: HELO [regular] [ 127.0.0.1:49939 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:20:32.361779+00:00 INFO 57: Loading RBAC configuration from [/opt/couchbase/var/lib/couchbase/config/memcached.rbac] [ 127.0.0.1:49939 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:20:32.364908+00:00 INFO 57: RBAC configuration updated [ 127.0.0.1:49939 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:20:32.559030+00:00 INFO 57: Client 127.0.0.1:52703 authenticated as <ud>@ns_server</ud>
+2022-01-13T14:20:32.559387+00:00 INFO 57: HELO [regular] [ 127.0.0.1:52703 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:20:32.655387+00:00 INFO 58: Client 127.0.0.1:53687 authenticated as <ud>@ns_server</ud>
+2022-01-13T14:20:32.655912+00:00 INFO 58: HELO [regular] [ 127.0.0.1:53687 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2022-01-13T14:20:32.656139+00:00 INFO 58: [ 127.0.0.1:53687 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ] Updated global cluster configuration. New revision: 34
+2022-01-13T14:20:32.656204+00:00 INFO Pushing new cluster config for bucket:[] revision:[34]
+2022-01-13T14:21:24.662779+00:00 INFO 57: [ 172.21.0.3:36778 - 172.21.0.2:11210 (not authenticated) ] Request for [disabled] Tracing feature
+2022-01-13T14:21:24.662816+00:00 INFO 57: HELO [{"a":"gocbcore/v10.0.6 gocb/v2.3.5","i":"c0f80a8c5642cbc6/57a0daf492d09a14"}] Mutation seqno, XATTR, XERROR, Select bucket, JSON, Unordered execution, AltRequestSupport, SyncReplication, SubdocCreateAsDeleted [ 172.21.0.3:36778 - 172.21.0.2:11210 (not authenticated) ]
+2022-01-13T14:21:24.668682+00:00 INFO 57: Client 172.21.0.3:36778 authenticated as <ud>Administrator</ud>
+2022-01-13T14:21:24.668960+00:00 INFO 57: select_bucket failed - No access. {"cid":"c0f80a8c5642cbc6/57a0daf492d09a14/6","connection":"[ 172.21.0.3:36778 - 172.21.0.2:11210 (<ud>Administrator</ud>) ]","bucket":"new-bucket"}
+2022-01-13T14:21:42.636298+00:00 INFO 57: [ 172.21.0.3:36780 - 172.21.0.2:11210 (not authenticated) ] Request for [disabled] Tracing feature
+2022-01-13T14:21:42.636327+00:00 INFO 57: HELO [{"a":"gocbcore/v10.0.6 gocb/v2.3.5","i":"ac1a03fea01f58cf/5c4048fc61136f92"}] Mutation seqno, XATTR, XERROR, Select bucket, JSON, Unordered execution, AltRequestSupport, SyncReplication, SubdocCreateAsDeleted [ 172.21.0.3:36780 - 172.21.0.2:11210 (not authenticated) ]
+2022-01-13T14:21:42.640205+00:00 INFO 57: Client 172.21.0.3:36780 authenticated as <ud>Administrator</ud>
+2022-01-13T14:21:42.640411+00:00 INFO 57: select_bucket failed - No access. {"cid":"ac1a03fea01f58cf/5c4048fc61136f92/6","connection":"[ 172.21.0.3:36780 - 172.21.0.2:11210 (<ud>Administrator</ud>) ]","bucket":"new-bucket"}
+2022-01-13T14:22:11.142987+00:00 INFO 57: [ 172.21.0.3:36782 - 172.21.0.2:11210 (not authenticated) ] Request for [disabled] Tracing feature
+2022-01-13T14:22:11.143025+00:00 INFO 57: HELO [{"a":"gocbcore/v10.0.6 gocb/v2.3.5","i":"00831a289a7cab0b/630efb05faff3ae4"}] Mutation seqno, XATTR, XERROR, Select bucket, JSON, Unordered execution, AltRequestSupport, SyncReplication, SubdocCreateAsDeleted [ 172.21.0.3:36782 - 172.21.0.2:11210 (not authenticated) ]
+2022-01-13T14:22:11.147855+00:00 INFO 57: Client 172.21.0.3:36782 authenticated as <ud>Administrator</ud>
+2022-01-13T14:22:11.148082+00:00 INFO 57: select_bucket failed - No access. {"cid":"00831a289a7cab0b/630efb05faff3ae4/6","connection":"[ 172.21.0.3:36782 - 172.21.0.2:11210 (<ud>Administrator</ud>) ]","bucket":"new-bucket"}
+2022-01-13T14:22:58.545343+00:00 INFO 57: [ 172.21.0.3:36784 - 172.21.0.2:11210 (not authenticated) ] Request for [disabled] Tracing feature
+2022-01-13T14:22:58.545372+00:00 INFO 57: HELO [{"a":"gocbcore/v10.0.6 gocb/v2.3.5","i":"61e1d40e7f0abb57/b9c24df8e990f5ca"}] Mutation seqno, XATTR, XERROR, Select bucket, JSON, Unordered execution, AltRequestSupport, SyncReplication, SubdocCreateAsDeleted [ 172.21.0.3:36784 - 172.21.0.2:11210 (not authenticated) ]
+2022-01-13T14:22:58.550665+00:00 INFO 57: Client 172.21.0.3:36784 authenticated as <ud>Administrator</ud>
+2022-01-13T14:22:58.550925+00:00 INFO 57: select_bucket failed - No access. {"cid":"61e1d40e7f0abb57/b9c24df8e990f5ca/6","connection":"[ 172.21.0.3:36784 - 172.21.0.2:11210 (<ud>Administrator</ud>) ]","bucket":"new-bucket"}
